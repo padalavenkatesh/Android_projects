@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CitymetroActivity!</string>
+    <string name="app_name">City metro</string>
+    <string name="welcome">Welcome to APSRTC city bus information system</string>
+    <string name="station">Enter bus No.</string>
+    <string name="get">Get Bus</string>
+    <string name="search">Select Station</string>
+    <string name="station_array">Choose a Station</string>
+
+    <string-array name="stations_array">
+        <item>Abids</item>
+        <item>Apollo</item>
+        <item>Afzulgunj</item>
+        <item>Ameerpet</item>
+        <item>ArtsCollege</item>
+        <item>Amberpet</item>
+        <item>Alwal</item>
+        <item>BasheerBagh</item>
+        <item>Banjarahills</item>
+        <item>Barkatpura</item>
+        <item>Boyanapally</item>
+        <item>Begumpet</item>
+        <item>Balanagar</item>
+        <item>Barkas</item>
+        <item>BHEL</item>
+        <item>Bolaram</item>
+        <item>Birlamandir</item>
+        <item>Chikkadapally</item>
+        <item>Charminar</item>
+        <item>Dilshuknagar</item>
+        <item>Erragadda</item>
+        <item>Ecil X Road</item>
+        <item>ESI</item>
+        <item>File Nagar </item>
+        <item>GandhiBhavan</item>
+        <item>Golconda</item>
+        <item>HYT</item>
+        <item>JBS</item>
+        <item>Kachiguda</item>
+        <item>K Bad</item>
+        <item>Kukatpally</item>
+        <item>Koti</item>
+        <item>LK Pool</item>
+        <item>Liberty</item>
+        <item>Lb Nagar</item>
+        <item>L Houz</item>
+        <item>Mehadipatnam</item>
+        <item>Moosapet</item>
+        <item>Masab Tank</item>
+        <item>Moulali</item>
+        <item>Madhapur</item>
+        <item>Medchel</item>
+        <item>Nampally</item>
+        <item>O U</item>
+        <item>Punjagutta</item>
+        <item>Patan cheru</item>
+        <item>Risala Bazar</item>
+        <item>Ram nagar</item>
+        <item>Rani Gunj</item>
+        <item>Rtc X Road</item>
+        <item>Sanath Nagar</item>
+        <item>Secretariat</item>
+        <item>Sec bad</item>
+        <item>SR Nagar</item>
+        <item>Tank Bund</item>
+        <item>Tarnaka</item>
+        <item>Uppal</item>
+        <item>Vidyanagar</item>
+        <item>YMCA</item>
+        <item>Yousfguda</item>
+    </string-array>
+
+    <string name="title">CITY METRO V1.0</string>
+    <string name="TITLE2">Information regarding Hyderabad city  bus services.</string>
+    <string name="title_mater">We shall keep this information update as much as possible. If you observe any need for corrections, Please intimate us at our email. Help us to keep it updated.</string>
+    <string name="warning">"This CITY METRO 1.0 application is related to metro express in the city we will update information about ordinary busses in next version "</string>
+    <string name="info">Selected Station</string>
+    <string name="name">Name</string>
+    <string name="stages">No Of Stages</string>
+    <string name="stagesdisplay">Stages:</string>
+    <string name="selectedbusno">The selected bus number is:</string>
+    <string name="thestages">The stages are:</string>
+    <string name="starting">Starting At:</string>
+    <string name="ending">Ending At:</string>
+    <string name="mail">androidatsafeways@gmail.com</string>
+
+</resources>

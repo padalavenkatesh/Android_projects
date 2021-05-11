@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://DefaultNamespace" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://DefaultNamespace" xmlns:intf="http://DefaultNamespace" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://DefaultNamespace" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="hrmsService">
+    <complexType>
+     <sequence>
+      <element name="FirstName" type="xsd:string"/>
+      <element name="LastName" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="hrmsServiceResponse">
+    <complexType>
+     <sequence>
+      <element name="hrmsServiceReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="hrmsServiceRequest">
+
+      <wsdl:part element="impl:hrmsService" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="hrmsServiceResponse">
+
+      <wsdl:part element="impl:hrmsServiceResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="Hrms_Db_Service">
+
+      <wsdl:operation name="hrmsService">
+
+         <wsdl:input message="impl:hrmsServiceRequest" name="hrmsServiceRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:hrmsServiceResponse" name="hrmsServiceResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="Hrms_Db_ServiceSoapBinding" type="impl:Hrms_Db_Service">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="hrmsService">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="hrmsServiceRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="hrmsServiceResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="Hrms_Db_ServiceService">
+
+      <wsdl:port binding="impl:Hrms_Db_ServiceSoapBinding" name="Hrms_Db_Service">
+
+         <wsdlsoap:address location="http://localhost:8080/HRMS_DB_SERVICE/services/Hrms_Db_Service"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>
